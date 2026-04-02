@@ -682,6 +682,107 @@
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════ MATERIA PRIMA -->
+  <div class="section">
+    <p class="section-label">Análisis de Materia Prima</p>
+    <h2 class="section-title">Fresa — el insumo principal</h2>
+    <p class="section-desc">131 cajas compradas en Marzo · $62.50/kg · 16 copas por caja</p>
+
+    <div class="kpi-grid" style="margin-bottom:16px">
+      <div class="kpi">
+        <p class="kpi-label">Gasto total fresa</p>
+        <p class="kpi-value">$32,820</p>
+        <p class="kpi-sub">131 cajas × $250</p>
+      </div>
+      <div class="kpi">
+        <p class="kpi-label">Kg comprados</p>
+        <p class="kpi-value">525 kg</p>
+        <p class="kpi-sub">131 cajas × 4 kg</p>
+      </div>
+      <div class="kpi">
+        <p class="kpi-label">Gramos por copa</p>
+        <p class="kpi-value">249g</p>
+        <p class="kpi-sub">promedio real con merma</p>
+      </div>
+      <div class="kpi">
+        <p class="kpi-label">Costo fresa / copa</p>
+        <p class="kpi-value green">$15.54</p>
+        <p class="kpi-sub">a $250 la caja</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-title">Escenario de precio — impacto por caja en costo por copa y margen</p>
+      <div style="overflow-x:auto">
+        <table style="width:100%;border-collapse:collapse;font-size:14px">
+          <thead>
+            <tr style="border-bottom:2px solid var(--border)">
+              <th style="text-align:left;padding:10px;font-family:'Courier New',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:normal">Precio caja</th>
+              <th style="text-align:right;padding:10px;font-family:'Courier New',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:normal">$/kg</th>
+              <th style="text-align:right;padding:10px;font-family:'Courier New',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:normal">Costo/copa</th>
+              <th style="text-align:right;padding:10px;font-family:'Courier New',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:normal">Gasto mes (2,112 copas)</th>
+              <th style="text-align:right;padding:10px;font-family:'Courier New',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:normal">Δ vs $250</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid var(--border);background:#f0faf0">
+              <td style="padding:10px;font-weight:bold">$250 <span style="font-size:11px;color:#1a6b1a;font-weight:normal">← Marzo real</span></td>
+              <td style="text-align:right;padding:10px">$62.50</td>
+              <td style="text-align:right;padding:10px;font-weight:bold;color:#1a6b1a">$15.54</td>
+              <td style="text-align:right;padding:10px;font-weight:bold">$32,820</td>
+              <td style="text-align:right;padding:10px;color:#1a6b1a">base</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border)">
+              <td style="padding:10px">$280</td>
+              <td style="text-align:right;padding:10px">$70.00</td>
+              <td style="text-align:right;padding:10px;font-weight:bold">$17.41</td>
+              <td style="text-align:right;padding:10px">$36,758</td>
+              <td style="text-align:right;padding:10px;color:var(--rojo)">+$3,938</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border)">
+              <td style="padding:10px">$320</td>
+              <td style="text-align:right;padding:10px">$80.00</td>
+              <td style="text-align:right;padding:10px;font-weight:bold">$19.89</td>
+              <td style="text-align:right;padding:10px">$42,026</td>
+              <td style="text-align:right;padding:10px;color:var(--rojo)">+$9,206</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border)">
+              <td style="padding:10px">$350</td>
+              <td style="text-align:right;padding:10px">$87.50</td>
+              <td style="text-align:right;padding:10px;font-weight:bold">$21.74</td>
+              <td style="text-align:right;padding:10px">$45,934</td>
+              <td style="text-align:right;padding:10px;color:var(--rojo)">+$13,114</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border);background:#fde8e8">
+              <td style="padding:10px;font-weight:bold">$400 <span style="font-size:11px;color:var(--rojo);font-weight:normal">← peor escenario</span></td>
+              <td style="text-align:right;padding:10px">$100.00</td>
+              <td style="text-align:right;padding:10px;font-weight:bold;color:var(--rojo)">$24.87</td>
+              <td style="text-align:right;padding:10px;font-weight:bold;color:var(--rojo)">$52,531</td>
+              <td style="text-align:right;padding:10px;color:var(--rojo)">+$19,711</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="insight insight-amber">
+        A $400 la caja el costo de fresa por copa sube de <strong>$15.54 a $24.87</strong> — casi $10 más por copa. Con 2,112 copas al mes eso son <strong>$19,711 adicionales</strong> que se van directo al margen. Justifica negociar precio fijo por volumen con Fresa Méx.
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-title">Desglose completo de materia prima — Marzo 2026</p>
+      <div class="data-row"><span class="label">Fresa Méx (131 cajas × $250)</span><span class="value">$32,820</span></div>
+      <div class="data-row"><span class="label">Lácteos y cremas</span><span class="value">$16,324</span></div>
+      <div class="data-row"><span class="label">Toppings / complementos</span><span class="value">$12,856</span></div>
+      <div class="data-row"><span class="label">Plátano</span><span class="value">$2,610</span></div>
+      <div class="data-row"><span class="label">Azúcar / endulzantes</span><span class="value">$826</span></div>
+      <div class="data-row"><span class="label">Bebidas (Casa del Agua)</span><span class="value">$1,374</span></div>
+      <div class="data-row" style="font-weight:bold"><span>Total materia prima</span><span style="color:var(--rojo)">$66,810</span></div>
+      <div class="insight">
+        La fresa representa el <strong>49.1%</strong> de toda la materia prima. Es el insumo más crítico — monitorear precio semanal y negociar volumen.
+      </div>
+    </div>
+  </div>
+
   <!-- ═══════════════════════════════════════ TABLA GASTOS -->
   <div class="section">
     <p class="section-label">Detalle de Gastos</p>
